@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESUME | Noor E Iram</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>RESUME</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="biodata.html">Bio-data</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+      <div class="intro-text">
+        <h2>Noor E Iram</h2>
+        <p><strong>Email:</strong> nooreiram30@gmail.com</p>
+        <p><strong>Phone:</strong> +91 8296209011</p>
+        <p><strong>Address:</strong> Haveri, Karnataka, India</p>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Career Objective</h2>
+      <p>To secure a responsible position where I can utilize my skills and contribute to the growth of the organization.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Educational Qualifications</h2>
+      <table>
+        <tr><th>Course</th><th>Institution</th><th>Year</th><th>Percentage</th></tr>
+        <tr><td>B.E (CSE)</td><td>VTU University</td><td>2025</td><td>90%</td></tr>
+        <tr><td>PUC</td><td>Karnataka Board</td><td>2021</td><td>75%</td></tr>
+        <tr><td>SSLC</td><td>Karnataka Board</td><td>2019</td><td>96%</td></tr>
+      </table>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>MS Office (Word, Excel, PowerPoint)</li>
+        <li>Python, C, Java</li>
+        <li>Database: Oracle Database</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Developed a modern portfolio website using HTML, CSS and JavaScript (with animations via AOS and jQuery). </li>
+        <li><strong>Student Performance Dashboard:</strong> Created an interactive dashboard in tableau to visualize student student results and attendance patterns.</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Honest and Responsible</li>
+        <li>Effective communication skills</li>
+        <li>Adaptable to Any Environment</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Declaration</h2>
+      <p>I hereby declare that all the above information is true to the best of my knowledge and belief.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bhumika Dyamagond | All Rights Reserved</p>
+  </footer>
+
+  <!-- jQuery Animation -->
+  <script>
+    $(document).ready(function(){
+      $("h1").hide().fadeIn(1500);
+      $(".profile-pic").hover(
+        function(){ $(this).css("transform", "scale(1.05)"); },
+        function(){ $(this).css("transform", "scale(1)"); }
+      );
+    });
+  </script>
+</body>
+</html>
